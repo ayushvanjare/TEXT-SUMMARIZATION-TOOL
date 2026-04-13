@@ -14,13 +14,13 @@
 
 ---
 
-###📌 Overview
+## 📌 Overview
 
 This project implements a simple extractive text summarization technique using Natural Language Processing (NLP).
 
 It analyzes a paragraph and extracts the most important sentences based on word frequency.
 
-###🚀 Features
+## 🚀 Features
 
 ✔️ Sentence & word tokenization
 
@@ -32,7 +32,7 @@ It analyzes a paragraph and extracts the most important sentences based on word 
 
 ✔️ Automatic summary generation
 
-###🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Python 3
 
@@ -48,7 +48,7 @@ Heapq (for ranking sentences)
  
  ┗ 📜 README.md
 
-###⚙️ Installation
+## ⚙️ Installation
 
 1️⃣ Install dependencies
 
@@ -78,7 +78,7 @@ Education is also improving day by day. India is becoming digital.
 
 India is a developing country. Technology is growing fast in India.
 
-###📊 Algorithm
+## 📊 Algorithm
 
 This project uses Frequency-Based Extractive Summarization:
 
@@ -88,7 +88,7 @@ Sentences are scored using these weights
 
 Top-ranked sentences are selected
 
-###⚠️ Limitations
+## ⚠️ Limitations
 
 ❌ Not context-aware
 
@@ -96,7 +96,7 @@ Top-ranked sentences are selected
 
 ❌ Cannot generate new sentences (only extracts)
 
-###🔮 Future Improvements
+## 🔮 Future Improvements
 
 🔹 Use Transformer models (BERT, GPT)
 
