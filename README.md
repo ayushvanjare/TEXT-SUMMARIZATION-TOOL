@@ -2,61 +2,56 @@
 
 📌 Overview
 
-This project demonstrates a simple extractive text summarization technique using Python and Natural Language Processing (NLP).
-It processes a paragraph and generates a short summary by selecting the most important sentences.
+This project implements a simple extractive text summarization technique using Natural Language Processing (NLP).
+
+It analyzes a paragraph and extracts the most important sentences based on word frequency.
 
 🚀 Features
-Tokenization of words and sentences
-Removal of stopwords
-Word frequency calculation
-Sentence scoring based on importance
-Extraction of top sentences as summary
-🛠️ Technologies Used
+
+✔️ Sentence & word tokenization
+✔️ Stopword removal
+✔️ Word frequency analysis
+✔️ Sentence scoring algorithm
+✔️ Automatic summary generation
+
+🛠️ Tech Stack
 Python 3
 NLTK (Natural Language Toolkit)
-Heap Queue (heapq) for selecting top sentences
+Heapq (for ranking sentences)
 📂 Project Structure
-Task_1.ipynb   # Main notebook containing implementation
-README.md      # Project documentation
+📁 Text-Summarization
+ ┣ 📜 Task_1.ipynb
+ ┗ 📜 README.md
 ⚙️ Installation
-
-Install required libraries using pip:
-
+1️⃣ Clone the repository
+git clone https://github.com/your-username/text-summarization.git
+cd text-summarization
+2️⃣ Install dependencies
 pip install nltk
-
-Download necessary NLTK datasets:
-
+3️⃣ Download NLTK data
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 ▶️ How It Works
-Input a paragraph of text
-Tokenize text into words and sentences
-Remove stopwords and punctuation
-Calculate word frequencies
-Normalize frequencies
-Score sentences based on word importance
-Extract top sentences as summary
 💻 Example
-Input:
+🔹 Input
 India is a developing country. It has a large population. 
 Technology is growing fast in India. Many people are using the internet. 
 Education is also improving day by day. India is becoming digital.
-Output:
+🔹 Output
 India is a developing country. Technology is growing fast in India.
-📊 Algorithm Used
+📊 Algorithm
 
-This project uses frequency-based extractive summarization, where:
+This project uses Frequency-Based Extractive Summarization:
 
-Words with higher frequency contribute more to sentence importance
-Sentences with higher scores are selected for the summary
+Words are weighted based on frequency
+Sentences are scored using these weights
+Top-ranked sentences are selected
 ⚠️ Limitations
-Works best for small text
-Does not understand context (purely frequency-based)
-May miss semantic meaning
+❌ Not context-aware
+❌ Works best on short text
+❌ Cannot generate new sentences (only extracts)
 🔮 Future Improvements
-Use advanced models like:
-BERT
-GPT
-Add abstractive summarization
-Improve sentence ranking using TF-IDF
+🔹 Use Transformer models (BERT, GPT)
+🔹 Add abstractive summarization
+🔹 Improve ranking with TF-IDF
