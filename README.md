@@ -30,6 +30,7 @@ Download necessary NLTK datasets:
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
+
 ▶️ How It Works
 Input a paragraph of text
 Tokenize text into words and sentences
