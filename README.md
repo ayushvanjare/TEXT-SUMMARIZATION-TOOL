@@ -38,7 +38,7 @@ Heapq (for ranking sentences)
 
 1️⃣ Clone the repository
 
-git clone https://github.com/your-username/text-summarization.git
+git clone https://github.com/ayushvanjare/text-summarization.git
 
 cd text-summarization
 
