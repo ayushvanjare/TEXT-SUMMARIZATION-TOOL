@@ -33,12 +33,19 @@ nltk.download('stopwords')
 
 ▶️ How It Works
 1.Input a paragraph of text
+
 2.Tokenize text into words and sentences
+
 3.Remove stopwords and punctuation
+
 4.Calculate word frequencies
+
 5.Normalize frequencies
+
 6.Score sentences based on word importance
+
 7.Extract top sentences as summary
+
 💻 Example
 Input:
 India is a developing country. It has a large population. 
