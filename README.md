@@ -36,17 +36,11 @@ Heapq (for ranking sentences)
 
 ⚙️ Installation
 
-1️⃣ Clone the repository
-
-git clone https://github.com/ayushvanjare/TEXT-SUMMARIZATION-TOOL/tree/main
-
-cd text-summarization
-
-2️⃣ Install dependencies
+1️⃣ Install dependencies
 
 pip install nltk
 
-3️⃣ Download NLTK data
+2️⃣ Download NLTK data
 
 import nltk
 
